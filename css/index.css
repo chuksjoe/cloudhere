@@ -1,0 +1,98 @@
+.container{
+	margin: 200px auto 0px auto;
+}
+.containerLeft{
+	width: 45%;
+	float: left;
+	padding: 0px 20px;
+	/*background-color: rgba(249,249,249,0.5);*/
+}
+.containerLogin{
+	background-color: #F9F9F9;
+	width: 40%;
+	float: right;
+	padding: 15px 15px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.header{
+	min-width: 300px;
+}
+.containerLeft p{
+	font-size: 22px;
+	line-height: 2em;
+}
+.input{
+	margin-bottom: 30px;
+}
+b{
+	font-size: 40px;
+}
+input{
+	width: 98%;
+	height: 30px;
+	border: 2px solid #ADABA8;
+	font-size: 18px;
+	border-radius: 3px;
+	margin-top: 6px;
+}
+input:focus{
+	border: 2px solid #ABEEFF;
+}
+.errorClass {
+	background-color: #CC6666;
+}
+input[type = "submit"]{
+	background-color: #ABEEFF;
+	width: 40%;
+	float: right;
+}
+#about-a{
+	display: none;
+}
+#errorDiv {
+	color: red;
+	font-style: italic;
+	font-size: 14px;
+}
+.errorSpan{
+	font-size: 12px;
+	color: red;
+}
+.errorFeedback {
+	display: none;
+}
+.register p{
+	font-size: 12px;
+	text-align: center;
+}
+/* for SignIn.php */
+.signin{
+	max-width: 440px;
+	min-width: 280px;
+	margin: 0px auto 0px auto;
+	background-color: #F9F9F9;
+	padding: 10px 10px;
+	float: none;
+}
+.signinHeader{
+	min-width: 300px;
+}
+.signinContainer{
+	min-width: 280px;
+	background-color: rgba(0,0,0,0.0);
+	margin-top: 150px
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 660px) {
+    .containerLeft{ width:95%;}
+    .containerLogin { width:90%;}
+	.container{margin-top: 100px;}
+	#signUp-a, #signIn-a, #aboutPro-a, #aboutUs-a{
+		display: none;
+	}
+	#about-a{
+		display: inline-block;
+	}
+}

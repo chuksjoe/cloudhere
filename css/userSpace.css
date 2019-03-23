@@ -1,0 +1,179 @@
+.header .userinfo{
+	text-transform: capitalize;
+	background-color: #ABEEFF;
+}
+.userinfo h2{
+	margin: 2px 0px;
+	display: inline-block;
+}
+.userinfo p{
+	margin: 2px 0px;
+	font-size: 10px;
+	font-style: italic;
+}
+.userinfo a{
+	text-decoration: none;
+	font-style: italic;
+}
+.container{
+	margin-top: 186px;
+}
+table{
+	width: 100%;
+	min-width: 280;
+}
+.thead{
+	width: 100%;
+	/*min-width:730px; */
+	max-width: 1100px;
+	position: static;
+}
+.fname{
+	width: 40%;
+}
+.fsize{
+	width: 10%;
+}
+.fupload{
+	width: 30%;
+}
+.download{
+	width: 10%;
+}
+.del{
+	width: 10%;
+}
+thead tr{
+	background-color: #ABEEFF;
+	padding: 10px 0px;
+	text-align: center;
+}
+tr{
+	background-color: #FFFCB9;
+}
+tr:even{
+	background-color: blue;
+}
+.detailItem:hover{
+	background-color: #EED8B9;
+}
+td{
+	padding: 10px 10px 10px 5px;
+}
+.header{
+	min-width: 300px;
+}
+.detailItem, .userDetails{
+	background-color: #E4F0FF;
+	background:transparant;
+}
+#fileMenu{
+	display: none;
+	border: 2px solid #57595B;
+	border-radius: 2px;
+	background-color: white;
+	width: 120px;
+}
+.contextItem{
+	border-bottom-style: solid;
+	color: #57595B;
+	padding: 5px 15px;
+	text-align: center;
+}
+.contextItem:hover{
+	background-color: #FFF1C1;
+}.contextItem a{
+	text-decoration: none;
+}
+#msgDiv{
+	display: fixed;
+	z-index: 100;
+	margin: auto auto;
+	background-color: white;
+	border: 1px solid black;
+	width: 300px;
+	height: 80px;
+	text-align: center;
+}
+/*Upload page Settings */
+.error{
+	color: red;
+}
+.success{
+	color: green;
+}
+
+/*for the delete dialog box */
+#deleteDialog{
+	text-align: center;
+	width: 300px;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0 0 10px #777777;
+	margin: 0px auto;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+}
+.hide-del-dialog{
+	display: none;
+}
+.show-del-dialog{
+	display: block;
+}
+.del-btn{
+	cursor: pointer;
+	color: black;
+	padding: 5px 20px;
+	margin: 0px 2px;
+	text-decoration: none;
+}#del{
+	padding: 0px;
+}
+#yes{
+	background-color: red;
+	color: white;
+}
+#no{
+	background-color: green;
+	color: white;
+}
+#yes:hover{
+	background-color: #FF8400;
+	color: white;
+}
+#no:hover{
+	background-color: #5CAB00;
+	color: white;
+}
+
+/*This makes the page respond to a smaller screen size */
+@media screen and (max-width: 660px) {
+    .logo{
+		display: none;
+	}
+    .rightAnchors{
+		text-transform: capitalize;
+	}
+	.fsize, .fupload{
+		display: none;
+	}
+	.detailItem, .theader{
+		font-size: 14px;
+	}
+	table{
+		width: 100%;
+	}
+}

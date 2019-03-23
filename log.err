@@ -1,0 +1,237 @@
+[24-Aug-2018 16:49:05 UTC] Password for chuksjoe@live.com doesn't match
+[24-Aug-2018 16:49:51 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\cloudhere\register-process.php on line 121
+[24-Aug-2018 16:49:51 UTC] PHP Stack trace:
+[24-Aug-2018 16:49:51 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\register-process.php:0
+[24-Aug-2018 16:49:51 UTC] PHP   2. registerUser() C:\wamp64\www\cloudhere\register-process.php:88
+[24-Aug-2018 16:49:51 UTC] PHP   3. crypt() C:\wamp64\www\cloudhere\register-process.php:121
+[24-Aug-2018 16:49:51 UTC] Inserted chuksjoe@live.com as ID 1
+[24-Aug-2018 16:54:25 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 78
+[24-Aug-2018 16:54:25 UTC] PHP Stack trace:
+[24-Aug-2018 16:54:25 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\login-process.php:0
+[24-Aug-2018 16:54:25 UTC] PHP   2. User->authenticate() C:\wamp64\www\cloudhere\login-process.php:38
+[24-Aug-2018 16:54:25 UTC] Cannot Update account for chuksjoe@live.com
+[24-Aug-2018 16:54:25 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 16:54:57 UTC] PHP Warning:  move_uploaded_file(../../usersUpload/20180824_165457_1_Blay House Project.mpp): failed to open stream: No such file or directory in C:\wamp64\www\cloudhere\upload.php on line 82
+[24-Aug-2018 16:54:57 UTC] PHP Stack trace:
+[24-Aug-2018 16:54:57 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\upload.php:0
+[24-Aug-2018 16:54:57 UTC] PHP   2. move_uploaded_file() C:\wamp64\www\cloudhere\upload.php:82
+[24-Aug-2018 16:54:57 UTC] PHP Warning:  move_uploaded_file(): Unable to move 'C:\wamp64\tmp\phpA553.tmp' to '../../usersUpload/20180824_165457_1_Blay House Project.mpp' in C:\wamp64\www\cloudhere\upload.php on line 82
+[24-Aug-2018 16:54:57 UTC] PHP Stack trace:
+[24-Aug-2018 16:54:57 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\upload.php:0
+[24-Aug-2018 16:54:57 UTC] PHP   2. move_uploaded_file() C:\wamp64\www\cloudhere\upload.php:82
+[24-Aug-2018 16:57:32 UTC] 1 has Inserted Blay House Project.mpp as ID 1
+[24-Aug-2018 16:58:38 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 16:58:55 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 78
+[24-Aug-2018 16:58:55 UTC] PHP Stack trace:
+[24-Aug-2018 16:58:55 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\login-process.php:0
+[24-Aug-2018 16:58:55 UTC] PHP   2. User->authenticate() C:\wamp64\www\cloudhere\login-process.php:38
+[24-Aug-2018 16:58:55 UTC] Cannot Update account for chuksjoe@live.com
+[24-Aug-2018 16:58:55 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:00:40 UTC] 1 has updated some of his details successfully
+[24-Aug-2018 17:00:40 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 173
+[24-Aug-2018 17:00:40 UTC] PHP Stack trace:
+[24-Aug-2018 17:00:40 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\userDetailsUpdate.php:0
+[24-Aug-2018 17:00:40 UTC] PHP   2. User->updateUserDetails() C:\wamp64\www\cloudhere\userDetailsUpdate.php:74
+[24-Aug-2018 17:00:45 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:01:05 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 78
+[24-Aug-2018 17:01:05 UTC] PHP Stack trace:
+[24-Aug-2018 17:01:05 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\login-process.php:0
+[24-Aug-2018 17:01:05 UTC] PHP   2. User->authenticate() C:\wamp64\www\cloudhere\login-process.php:38
+[24-Aug-2018 17:01:05 UTC] Cannot Update account for chuksjoe@live.com
+[24-Aug-2018 17:01:05 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:12:59 UTC] 1 has updated some of his details successfully
+[24-Aug-2018 17:12:59 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 173
+[24-Aug-2018 17:12:59 UTC] PHP Stack trace:
+[24-Aug-2018 17:12:59 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\userDetailsUpdate.php:0
+[24-Aug-2018 17:12:59 UTC] PHP   2. User->updateUserDetails() C:\wamp64\www\cloudhere\userDetailsUpdate.php:74
+[24-Aug-2018 17:13:02 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:13:18 UTC] PHP Notice:  Undefined index: date_last_online in C:\wamp64\www\cloudhere\userClass.php on line 78
+[24-Aug-2018 17:13:18 UTC] PHP Stack trace:
+[24-Aug-2018 17:13:18 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\login-process.php:0
+[24-Aug-2018 17:13:18 UTC] PHP   2. User->authenticate() C:\wamp64\www\cloudhere\login-process.php:38
+[24-Aug-2018 17:13:18 UTC] Cannot Update account for chuksjoe@live.com
+[24-Aug-2018 17:13:18 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:14:44 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:14:55 UTC] 1 has updated some of his details successfully
+[24-Aug-2018 17:14:58 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:15:12 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:15:36 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:16:14 UTC] 1 has Inserted Chyn ft Falz-Big.mp3 as ID 2
+[24-Aug-2018 17:16:18 UTC] Update of total storage used and total number of files for 1 failed.
+[24-Aug-2018 17:41:14 UTC] 1 has Inserted history.jpg as ID 3
+[24-Aug-2018 18:09:37 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\cloudhere\register-process.php on line 121
+[24-Aug-2018 18:09:37 UTC] PHP Stack trace:
+[24-Aug-2018 18:09:37 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\register-process.php:0
+[24-Aug-2018 18:09:37 UTC] PHP   2. registerUser() C:\wamp64\www\cloudhere\register-process.php:88
+[24-Aug-2018 18:09:37 UTC] PHP   3. crypt() C:\wamp64\www\cloudhere\register-process.php:121
+[24-Aug-2018 18:09:37 UTC] Inserted cynthia@good.com as ID 2
+[24-Aug-2018 18:10:12 UTC] 2 has updated some of her details successfully
+[28-Aug-2018 11:52:31 UTC] PHP Notice:  Undefined variable: d_l_o in C:\wamp64\www\cloudhere\userAnalysis.php on line 30
+[28-Aug-2018 11:52:31 UTC] PHP Stack trace:
+[28-Aug-2018 11:52:31 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\userAnalysis.php:0
+[03-Oct-2018 14:12:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:12:49 UTC] PHP Stack trace:
+[03-Oct-2018 14:12:49 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:12:49 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:12:49 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:12:49 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:13:03 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:13:03 UTC] PHP Stack trace:
+[03-Oct-2018 14:13:03 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:13:03 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:13:03 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:13:03 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:13:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:13:05 UTC] PHP Stack trace:
+[03-Oct-2018 14:13:05 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:13:05 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:13:05 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:13:05 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:13:42 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:13:42 UTC] PHP Stack trace:
+[03-Oct-2018 14:13:43 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:13:43 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:13:43 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:13:43 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:14:29 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:14:29 UTC] PHP Stack trace:
+[03-Oct-2018 14:14:29 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:14:29 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:14:29 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:14:29 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:14:32 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:14:32 UTC] PHP Stack trace:
+[03-Oct-2018 14:14:32 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:14:32 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:14:32 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:14:32 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:14:48 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:14:48 UTC] PHP Stack trace:
+[03-Oct-2018 14:14:48 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\index.php:0
+[03-Oct-2018 14:14:48 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\index.php:2
+[03-Oct-2018 14:14:48 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:14:48 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:15:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:15:15 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:15 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\login-process.php:0
+[03-Oct-2018 14:15:15 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\login-process.php:2
+[03-Oct-2018 14:15:15 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:15:15 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:15:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:15:16 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:16 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:16 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\adminView.php:2
+[03-Oct-2018 14:15:16 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:15:16 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:15:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\wamp64\www\cloudhere\adminView.php on line 70
+[03-Oct-2018 14:15:16 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:16 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:16 UTC] PHP   2. mysqli->query() C:\wamp64\www\cloudhere\adminView.php:70
+[03-Oct-2018 14:15:16 UTC] Cannot retrieve the content of the table
+[03-Oct-2018 14:15:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:15:46 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:46 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:46 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\adminView.php:2
+[03-Oct-2018 14:15:46 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:15:46 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:15:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\wamp64\www\cloudhere\adminView.php on line 70
+[03-Oct-2018 14:15:46 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:46 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:46 UTC] PHP   2. mysqli->query() C:\wamp64\www\cloudhere\adminView.php:70
+[03-Oct-2018 14:15:46 UTC] Cannot retrieve the content of the table
+[03-Oct-2018 14:15:48 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'chuksphp'@'localhost' (using password: YES) in C:\wamp64\www\cloudhere\functions.inc on line 9
+[03-Oct-2018 14:15:48 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:49 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:49 UTC] PHP   2. require_once() C:\wamp64\www\cloudhere\adminView.php:2
+[03-Oct-2018 14:15:49 UTC] PHP   3. mysqli->mysqli() C:\wamp64\www\cloudhere\functions.inc:9
+[03-Oct-2018 14:15:49 UTC] Cannot connect to MYSQL: Access denied for user 'chuksphp'@'localhost' (using password: YES)
+[03-Oct-2018 14:15:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\wamp64\www\cloudhere\adminView.php on line 70
+[03-Oct-2018 14:15:49 UTC] PHP Stack trace:
+[03-Oct-2018 14:15:49 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\adminView.php:0
+[03-Oct-2018 14:15:49 UTC] PHP   2. mysqli->query() C:\wamp64\www\cloudhere\adminView.php:70
+[03-Oct-2018 14:15:49 UTC] Cannot retrieve the content of the table
+[03-Oct-2018 20:14:45 UTC] User:1 has uploaded IMG_20171209_002326.jpg with File-ID:4
+[03-Oct-2018 20:14:46 UTC] User:1 has uploaded IMG_20171209_144942.jpg with File-ID:5
+[03-Oct-2018 20:14:46 UTC] User:1 has uploaded IMG_20171214_201800.jpg with File-ID:6
+[03-Jan-2019 19:07:37 UTC] PHP Notice:  Undefined variable: d_l_o in C:\wamp64\www\cloudhere\userAnalysis.php on line 30
+[03-Jan-2019 19:07:38 UTC] PHP Stack trace:
+[03-Jan-2019 19:07:38 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\userAnalysis.php:0
+[31-Jan-2019 14:03:20 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in C:\wamp64\www\astromaticng\admin-registration-process.php on line 78
+[31-Jan-2019 14:03:20 UTC] PHP Stack trace:
+[31-Jan-2019 14:03:20 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:03:20 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:12:09 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in C:\wamp64\www\astromaticng\admin-registration-process.php on line 78
+[31-Jan-2019 14:12:09 UTC] PHP Stack trace:
+[31-Jan-2019 14:12:09 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:12:09 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:12:15 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in C:\wamp64\www\astromaticng\admin-registration-process.php on line 78
+[31-Jan-2019 14:12:15 UTC] PHP Stack trace:
+[31-Jan-2019 14:12:15 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:12:15 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:14:09 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 94
+[31-Jan-2019 14:14:09 UTC] PHP Stack trace:
+[31-Jan-2019 14:14:09 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:14:09 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:14:09 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:94
+[31-Jan-2019 14:14:09 UTC] Problem inserting INSERT INTO tbl_user(first_name, last_name, email, password, phone, date_reg) VALUES ('dsdjdjs', 'ssvvjdfj', 'dfkjdk@djsdnj.co', '$1$bc5.IH/.$Aj1r3ycrW5pTtclmmhR93/', '4499384499303', NOW())
+[31-Jan-2019 14:14:09 UTC] Error registering user: dfkjdk@djsdnj.co
+[31-Jan-2019 14:14:44 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 94
+[31-Jan-2019 14:14:44 UTC] PHP Stack trace:
+[31-Jan-2019 14:14:44 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:14:44 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:14:44 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:94
+[31-Jan-2019 14:14:44 UTC] Problem inserting INSERT INTO tbl_user(first_name, last_name, email, password, phone, date_reg) VALUES ('djjshdjhj', 'jjdfjfsdj', 'jfksdsl@fkdfj.co', '$1$xN0.mZ0.$ot49VJtRTguK0lw/qkouk/', '111111111111', NOW())
+[31-Jan-2019 14:14:44 UTC] Error registering user: jfksdsl@fkdfj.co
+[31-Jan-2019 14:17:31 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 94
+[31-Jan-2019 14:17:31 UTC] PHP Stack trace:
+[31-Jan-2019 14:17:31 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:17:31 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:17:31 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:94
+[31-Jan-2019 14:17:31 UTC] Problem inserting INSERT INTO tbl_user(first_name, last_name, email, password, phone, date_reg) VALUES ('sdhsfhjj', 'jhfjhdfjih', 'jfjfh@fjfj.co', '$1$15/..d0.$ItztVqZugYdGBhaFJf/fZ1', '444444444444', NOW())
+[31-Jan-2019 14:17:31 UTC] Error registering user: jfjfh@fjfj.co
+[31-Jan-2019 14:18:47 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 91
+[31-Jan-2019 14:18:47 UTC] PHP Stack trace:
+[31-Jan-2019 14:18:48 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:18:48 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:18:48 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:91
+[31-Jan-2019 14:18:48 UTC] Problem inserting INSERT INTO tbl_user(first_name, last_name, email, password, phone, date_reg) VALUES ('ddjsjjh', 'fjfjfjh', 'fhsjfsj@fsfjffi.co', '$1$tp0.ye4.$rM3BHFZ25uJTfnVeDzgI50', '448855847755', NOW())
+[31-Jan-2019 14:18:48 UTC] Error registering user: fhsjfsj@fsfjffi.co
+[31-Jan-2019 14:20:02 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 91
+[31-Jan-2019 14:20:02 UTC] PHP Stack trace:
+[31-Jan-2019 14:20:02 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:20:02 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:20:02 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:91
+[31-Jan-2019 14:20:02 UTC] Inserted djfsjkdh@fjf.co as ID 3
+[31-Jan-2019 14:24:59 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\astromaticng\admin-registration-process.php on line 91
+[31-Jan-2019 14:24:59 UTC] PHP Stack trace:
+[31-Jan-2019 14:24:59 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-registration-process.php:0
+[31-Jan-2019 14:24:59 UTC] PHP   2. registerUser() C:\wamp64\www\astromaticng\admin-registration-process.php:55
+[31-Jan-2019 14:24:59 UTC] PHP   3. crypt() C:\wamp64\www\astromaticng\admin-registration-process.php:91
+[31-Jan-2019 14:24:59 UTC] Inserted chuksjoe@live.com as ID 4
+[31-Jan-2019 14:31:26 UTC] Cannot retrieve account for chuksjoe@live.com
+[31-Jan-2019 14:31:53 UTC] Cannot retrieve account for chuksjoe@live.com
+[31-Jan-2019 14:34:37 UTC] PHP Notice:  Undefined index: user_id in C:\wamp64\www\astromaticng\users-class.php on line 60
+[31-Jan-2019 14:34:37 UTC] PHP Stack trace:
+[31-Jan-2019 14:34:37 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-login-process.php:0
+[31-Jan-2019 14:34:37 UTC] PHP   2. User->authenticate() C:\wamp64\www\astromaticng\admin-login-process.php:33
+[31-Jan-2019 15:29:16 UTC] PHP Notice:  Undefined index: user_id in C:\wamp64\www\astromaticng\users-class.php on line 60
+[31-Jan-2019 15:29:16 UTC] PHP Stack trace:
+[31-Jan-2019 15:29:16 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-login-process.php:0
+[31-Jan-2019 15:29:16 UTC] PHP   2. User->authenticate() C:\wamp64\www\astromaticng\admin-login-process.php:33
+[31-Jan-2019 15:29:47 UTC] PHP Notice:  Undefined index: user_id in C:\wamp64\www\astromaticng\users-class.php on line 60
+[31-Jan-2019 15:29:47 UTC] PHP Stack trace:
+[31-Jan-2019 15:29:47 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-login-process.php:0
+[31-Jan-2019 15:29:47 UTC] PHP   2. User->authenticate() C:\wamp64\www\astromaticng\admin-login-process.php:33
+[31-Jan-2019 15:40:21 UTC] Password for dsd@ddd.c doesn't match
+[31-Jan-2019 15:41:51 UTC] Password for fjkfj@dfj.vv doesn't match
+[31-Jan-2019 15:51:49 UTC] PHP Notice:  Undefined index: user_id in C:\wamp64\www\astromaticng\users-class.php on line 60
+[31-Jan-2019 15:51:49 UTC] PHP Stack trace:
+[31-Jan-2019 15:51:49 UTC] PHP   1. {main}() C:\wamp64\www\astromaticng\admin-login-process.php:0
+[31-Jan-2019 15:51:49 UTC] PHP   2. User->authenticate() C:\wamp64\www\astromaticng\admin-login-process.php:33
+[06-Mar-2019 16:11:12 UTC] Password for chuksjoe@live.com doesn't match
+[06-Mar-2019 16:12:08 UTC] PHP Notice:  crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. in C:\wamp64\www\cloudhere\register-process.php on line 121
+[06-Mar-2019 16:12:08 UTC] PHP Stack trace:
+[06-Mar-2019 16:12:08 UTC] PHP   1. {main}() C:\wamp64\www\cloudhere\register-process.php:0
+[06-Mar-2019 16:12:08 UTC] PHP   2. registerUser() C:\wamp64\www\cloudhere\register-process.php:88
+[06-Mar-2019 16:12:08 UTC] PHP   3. crypt() C:\wamp64\www\cloudhere\register-process.php:121
+[06-Mar-2019 16:12:08 UTC] Inserted chuksjoe@live.com as ID 1

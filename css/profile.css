@@ -1,0 +1,48 @@
+.header .userinfo{
+	text-transform: capitalize;
+	background-color: #ABEEFF;
+}
+.userinfo h2{
+	margin: 2px 0px;
+	display: inline-block;
+}
+.userinfo p{
+	margin: 2px 0px;
+	font-size: 10px;
+	font-style: italic;
+}
+.userinfo a{
+	text-decoration: none;
+	font-style: italic;
+}
+.edit-button-container{
+	text-align: center;
+}
+.container{
+	margin-top: 138px;
+}
+.input input{
+	border-width: 0px;
+}
+.edit-button{
+	padding: 3px 50px;
+	border-radius: 3px;
+	background-color: #ABEEFF;
+	font-size: 22px;
+}
+.edit-button:hover{
+	border: 1px solid #006633;
+	background-color: #00B2FE;
+	color: #ffffff;
+	cursor: pointer;
+}
+.success{
+	color: green;
+}
+@media screen and (max-width: 660px) {
+    .logo{
+		display: none;
+	}
+    .rightAnchors{
+	text-transform: capitalize;
+}

@@ -1,0 +1,50 @@
+create database if not exists db_cloudhere;
+
+create table if not exists tbl_user(
+    user_id serial,
+    first_name varchar(255),
+    last_name varchar(255),
+    email varchar(255),
+    password varchar(255),
+    street varchar(100),
+    city varchar(100),
+    state varchar(100),
+    country varchar(100),
+    zip char(10),
+    phone char(20),
+    gender char(10),
+    date_reg datetime,
+    d_o_b datetime,
+    date_last_online datetime,
+    total_storage_used float,
+    total_num_of_files bigint(10),
+    primary key(user_id));
+
+//PHP Equivalent
+$sql = "create table if not exists tbl_user(\n"
+    . " user_id serial,\n"
+    . " first_name varchar(255),\n"
+    . " last_name varchar(255),\n"
+    . " email varchar(255),\n"
+    . " password varchar(255),\n"
+    . " street varchar(100),\n"
+    . " city varchar(100),\n"
+    . " state varchar(100),\n"
+    . " country varchar(100),\n"
+    . " zip char(10),\n"
+    . " phone char(20),\n"
+    . " gender char(10),\n"
+    . " date_reg datetime,\n"
+    . " date_last_online datetime,\n"
+    . " primary key(user_id))";
+
+create table if not exists tbl_user_upload(
+	file_id serial,
+	user_id bigint(10),
+	file_name varchar(255),
+	url varchar(255),
+	size bigint(10),
+	type varchar(100),
+	upload_date datetime,
+	primary key(file_id, user_id));
+

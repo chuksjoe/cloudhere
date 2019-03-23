@@ -1,0 +1,77 @@
+body{
+	background: #ABEEFF url("../images/cloud7.jpg") repeat scroll;
+	font-family: "Trebuchet MS", Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", helvetica, verdana, sans-serif;
+	font-size: 16px;
+}
+.header{
+	background-color: #ABEEFF;
+	position: fixed;
+	display: block;
+	width: 100%;
+	min-width: 730px;
+	height: auto;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 10px #777777;
+}
+.insideHeader{
+	max-width: 1100px;
+	margin: 0px auto;
+	overflow: auto;
+}
+.logo{
+	max-width: 185px;
+	margin: auto 0px;
+	padding: 10px 10px;
+	float: left;
+	display: inline;
+}
+#header ul{
+	display: inline-block;
+}
+.headerAnchors{
+	margin-top: 15px;
+	float: right;
+	max-width:910px;
+	overflow: auto;
+	padding: 0px
+}
+.rightAnchors{
+	float: right;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+.rightAnchors a{
+	text-decoration: none;
+	color: #fff;
+}
+.rightAnchors a:current{
+	color: #F0911B;
+}
+.header li{
+	display: inline-block;
+	padding: 10px 10px;
+	background-color: #37A4D8;
+	border-radius: 3px;
+}
+.container{
+	background-color: rgba(249, 249, 249, 0.5);
+	max-width: 1100px;
+	/*min-width:730px;*/
+	margin: 100px auto 0px auto;
+	clear: both;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+input[type="submit"]:hover {
+	border: 1px solid #006633;
+	background-color: #00B2FE;
+	color: #ffffff;
+	cursor: pointer;
+}

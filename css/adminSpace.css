@@ -1,0 +1,178 @@
+.header .userinfo{
+	text-transform: capitalize;
+	background-color: #ABEEFF;
+}
+#filter-div{
+	float: left;
+}
+.header, .container{
+	min-width: 860px;
+}
+.userinfo h2{
+	margin: 2px 0px;
+	display: inline-block;
+}
+.userinfo p{
+	margin: 2px 0px;
+	font-size: 10px;
+	font-style: italic;
+}
+.userinfo a{
+	text-decoration: none;
+	font-style: italic;
+}
+.container{
+	position: absolute;
+	margin-top: 125px;
+	width: 100%;
+	width: 1050px;
+	clear: right;
+	float: left;
+	left: 255px;
+}
+nav{
+	width: 250px;
+	float: left;
+	position: fixed;
+	left: 0px;
+	height: 100%;
+	background-color: #E5E5E5;
+	z-index: 99;
+}
+nav label{
+	text-align: center;
+	display: block;
+	background-color: #37A4D8;
+	padding: 5px 20px;
+	margin: 20px 5px;
+	border-radius: 3px;
+}
+.btn-container{
+	margin-top: 150px;
+}
+.btn-container label:hover{
+	cursor: pointer;
+	background-color: #228CB0;
+}
+table{
+	width: 100%;
+	min-width: 280px;
+	margin: 0px auto;
+}
+.user-Id{
+	width: 5%;
+}
+.full-name{
+	width: 20%;
+}
+.full-name:hover{
+	cursor: pointer;
+	background-color: #EED8D1;
+}
+.location{
+	width: 15%
+}
+.date-reg{
+	width: 20%
+}
+.date-l-o{
+	width: 20%;
+}
+.t-s-u{
+	width: 10%;
+}
+.t-n-o-f{
+	width: 10%;
+}
+thead tr{
+	background-color: #ABEEFF;
+	padding: 10px 0px;
+	text-align: center;
+}
+tr{
+	background-color: #FFFCB9;
+}
+.userDetails:hover{
+	background-color: #EED8B9;
+}
+td{
+	padding: 10px 10px 10px 5px;
+}
+.userDetails{
+	background-color: #E4F0FF;
+	background:transparant;
+}
+tfoot tr{
+	background-color: #DDCCB9;
+}
+
+/*Dialog for User chart and table */
+/*
+#user-chart{
+	width: 900px;
+	height: 500px;
+	position: fixed;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-shadow: 0 0 10px #777777;
+	overflow: scroll;
+}
+#dialog-header{
+	position: relative;
+	width: 880px;
+	height: 50px;
+	top: 0px; left: 0px;
+	background-color: #F0ECEC;
+	padding: 10px;
+}
+
+.dlg-header-content{
+	display: inline-block;
+	padding: 10px;
+}
+#cht-tbl-btn label{
+	background-color: #37A4D8;
+	padding: 5px 20px;
+	margin: auto 5px;
+	border-radius: 3px;
+}
+#close-btn{
+	width: 32px;
+	height: 32px;
+	background-image: url("../images/close-btn.png");
+	background-position: 0px 0px;
+	float: right;
+	padding: 0px;
+}
+#close-btn:hover{
+	background-position: -32px 0px;
+}
+*/
+.hide-div{
+	display: none;
+}
+.show-div{
+	display: block;
+}
+.hidden{
+	visibility: hidden;
+}
+.visible{
+	visibility: visible;
+}
+
+/*This makes the page respond to a smaller screen size 
+@media screen and (max-width: 660px) {
+    .logo{
+		display: none;
+	}
+    .rightAnchors{
+		text-transform: capitalize;
+	}
+	.userDetails, .theader{
+		font-size: 14px;
+	}
+}	*/

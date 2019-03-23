@@ -1,0 +1,36 @@
+.picture{
+	max-width: 300px;
+	min-width: 250px;
+	float: left;
+	margin: 10px 15px;
+}
+li{
+	margin: 0px 2px;
+}
+.innerContainer{
+	padding: 10px 5px;
+	overflow: auto;
+	width: 100%;
+}
+.picture img{
+	width: 100%;
+}
+.container{
+	margin-top: 100px;
+	max-width: 900px;
+	clear: both;
+}
+.details{
+	float: left;
+	max-width: 500px;
+	min-width: 250px;
+	margin: 10px 0px 10px 15px;
+	overflow: auto;
+}
+p, ol{
+	font-size: 24px;
+	line-height: 1.5em;
+}
+table, td{
+	/*border: 2px solid black;*/
+}
